@@ -1,0 +1,43 @@
+{
+  "name": "NuxtTemplate",
+  "version": "1.0.0",
+  "description": "Project",
+  "author": "Alex Lis",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore"
+  },
+  "lint-staged": {
+    "*.{css,vue}": "stylelint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.4.0",
+    "@nuxtjs/strapi": "^1.4.0",
+    "@nuxtjs/stylelint-module": "^4.1.0",
+    "@nuxtjs/svg-sprite": "^0.5.2",
+    "bootstrap": "^4.3.1",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "nuxt-svg-loader": "^1.2.0",
+    "stylelint": "13.13.1",
+    "stylelint-declaration-block-no-ignored-properties": "2.4.0",
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.20.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/device": "^2.1.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/svg": "^0.4.0",
+    "fibers": "^5.0.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^1.18.9",
+    "normalize.css": "8.0.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.3.1"
+  }
+}

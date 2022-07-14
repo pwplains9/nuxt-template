@@ -1,0 +1,49 @@
+@import "../../node_modules/normalize.css/normalize";
+
+// ** Mixins ** //
+
+@import "mixins/fonts";
+
+// ** Mixins ** //
+
+// Settings
+$desktop-xl: 1025;
+$desktop: 1025;
+$laptop: 1440;
+$mobile: 360;
+$laptop-h: 800;
+
+// ** Imports ** //
+
+// ** Fonts ** //
+
+$font-Poppins: 'Poppins';
+
+// ** Fonts ** //
+
+// ** Colors ** //
+
+$color-white: #fff;
+$color-black: #000;
+$color-theme: #141029;
+$color-bg: #230237;
+$color-gray: rgba(20, 16, 41, 0.6);
+$color-text: rgba(20, 16, 41, 0.8);
+$color-header: #fafbfc;
+$color-hover: rgba(20, 1, 41, 0.02);
+
+// ** Colors ** //
+
+// EASING TRANSITIONS
+$duration-normal: 0.4s;
+$easing-back-out: cubic-bezier(0.25, 0.74, 0.22, 1.1); // http://cubic-bezier.com/#.25,.74,.22,1.1
+$easing-back-in: cubic-bezier(0.47, -0.1, 0.5, -0.06); // http://cubic-bezier.com/#.47,-0.1,.5,-.06
+$easing-out: ease-out;
+$easing-in: ease-in;
+$easing-smooth: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+
+// ** Imports ** //
+
+@import "fonts";
+@import "breakpoint";
+@import "helpers";
